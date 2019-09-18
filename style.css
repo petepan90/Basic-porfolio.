@@ -1,0 +1,35 @@
+#container {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+header {
+    background: #4aaaa5;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+    margin: 0%;
+    bor
+}
+
+nav {
+    float: right;
+    margin: -22px;
+}
+
+body {
+background-color: antiquewhite;
+width: 70%;
+text-align: center;
+}
+.aboutme {
+    border-bottom-style: outset;
+    color: #4aaaa5;
+}
+
+
+
+
+
+}
