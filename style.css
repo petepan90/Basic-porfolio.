@@ -1,35 +1,48 @@
-#container {
-    font-family: Georgia, 'Times New Roman', Times, serif
+body {
+    background-color: #dddddd;
 }
 
-header {
-    background: #4aaaa5;
-    color: white;
-    font-size: xx-large;
-    text-align: center;
-    height: fit-content;
-    width: fit-content;
-    margin: 0%;
-    bor
+.container2 {
+    background-color: #ffffff; 
+    border: outset;
+    float: right;
+    
+}
+
+.container3 {
+    
+    
+    border: outset;
+    margin: 0;
+    width: 100%;
+    height: 10%;
+    
+}
+
+div .box1 {
+    float: left;
+    background-size: contain;
+    background-color: #4aaaa5;
+}
+
 }
 
 nav {
     float: right;
-    margin: -22px;
 }
 
-body {
-background-color: antiquewhite;
-width: 70%;
-text-align: center;
+footer {
+    flex: 0%;
+    float: left;
+    border: outset;
+    background-color: darkgray;
+    display: flow-root;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 99%;
+    height: 10%;
 }
-.aboutme {
-    border-bottom-style: outset;
-    color: #4aaaa5;
-}
-
-
-
-
-
-}
+ box3 {
+     border-bottom: groove;
+ }
