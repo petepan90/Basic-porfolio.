@@ -5,13 +5,13 @@ body {
 .container2 {
     background-color: #ffffff; 
     border: outset;
-    float: right;
-    
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 27px;
 }
 
 .container3 {
-    
-    
     border: outset;
     margin: 0;
     width: 100%;
@@ -19,30 +19,63 @@ body {
     
 }
 
-div .box1 {
+ .box1 {
     float: left;
-    background-size: contain;
     background-color: #4aaaa5;
+    margin: 0px;
+    margin-left: 283px;
+    margin-top: 63px;
+    color: #ffffff;
 }
+
+.box {
+    height: 100px;
+    width: 100%;
+    background-color: #ffffff;
+    margin: 0px;
+    border-bottom: groove;
 
 }
 
-nav {
+.links {
     float: right;
+    margin: 5px;
+    padding-top: 65px;
+    padding-right: 50px;
 }
+
 
 footer {
-    flex: 0%;
-    float: left;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     border: outset;
     background-color: darkgray;
-    display: flow-root;
-    float: left;
     margin: 0;
     padding: 0;
     width: 99%;
     height: 10%;
+    text-align: center;
 }
- box3 {
+ .box3 {
      border-bottom: groove;
+     border-bottom: groove;
+     padding-left: 34px;
+     color: #4aaaa5;
  }
+ }
+ .box4 {
+     float: left;
+ }
+
+ .grid div:nth-child(even) {
+     background-color: #4aaaa5;
+ }
+
+.grid div:nth-child(odd) {
+    background-color: blue;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
