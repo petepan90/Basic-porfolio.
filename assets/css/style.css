@@ -99,3 +99,34 @@ nav ul li a {
     text-decoration-style: initial;
     text-decoration-color: initial;
 }
+
+/* middle components */
+.module {
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #ddd;
+}
+
+#content {
+    float: left;
+    width: 650px;
+}
+
+h1 {
+    font-size: 30px;
+    border-bottom: 2px solid #ccc;
+}
+
+h1, h2 {
+    font-family: "Georgia";
+    color: #4aaaa5;
+    padding-bottom: 30px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.peter {
+    float: left;
+    margin-right: 30px;
+    height: 273px;
+}
