@@ -100,7 +100,7 @@ nav ul li a {
     text-decoration-color: initial;
 }
 
-/* middle components */
+/* middle component*/
 .module {
     background-color: #fff;
     padding: 30px;
@@ -129,4 +129,31 @@ h1, h2 {
     float: left;
     margin-right: 30px;
     height: 273px;
+}
+
+/* side middle component */
+#social {
+    width: 270px;
+    float: right;
+    text-align: center;
+}
+
+h2 {
+    font-size: 22px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#social img {
+    height: 60px;
+    width: auto;
+}
+
+#social a {
+    margin-right: 8px;
+}
+
+#social a:last-child {
+    margin-right: 0;
 }
