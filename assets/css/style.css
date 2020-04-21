@@ -157,3 +157,21 @@ h2 {
 #social a:last-child {
     margin-right: 0;
 }
+
+a {
+    text-decoration: none;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    background-color: #777;
+    color: #ccc;
+    line-height: 90px;
+    margin-top: 40px;
+    border-top: 8px solid #4aaaa5;
+    font-size: 12px;
+    position: relative;
+    bottom: -55px;
+}
