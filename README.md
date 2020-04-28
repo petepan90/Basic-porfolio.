@@ -1,2 +1,2 @@
 # Basic-porfolio.
-basic porfolio homework
+In this assignment, I built a professional portfolio site using HTML/CSS. 
